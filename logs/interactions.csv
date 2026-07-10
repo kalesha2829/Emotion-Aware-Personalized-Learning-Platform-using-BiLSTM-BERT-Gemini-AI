@@ -1,0 +1,320 @@
+timestamp,student_input,bilstm_prediction,bert_prediction,final_emotion,confidence_score,mixed_emotion_breakdown,gemini_response
+2026-07-03T09:58:46.389602+00:00,This is a test input,joy,joy,joy,0.950000,"[{""emotion"": ""joy"", ""confidence"": 0.95}]","{""personalized_learning_guidance"":""Test guidance""}"
+2026-07-03T10:02:17.328594+00:00,Test input,Curious,Confident,Curious,0.920000,"[{""emotion"": ""Curious"", ""confidence"": 0.92}]",{}
+2026-07-03T10:04:38.279760+00:00,Test input,Confused,Curious,Confused,0.830000,"[{""emotion"": ""Confused"", ""confidence"": 0.83}]",{}
+2026-07-03T11:38:49.944899+00:00,I am confused about recursion.,Confused,Frustrated,Confused,0.931287,"[{""emotion"": ""Confused"", ""confidence"": 0.514581024646759}]",ERROR: google-generativeai is not installed. Install it to enable Gemini support.
+2026-07-03T11:47:48.097978+00:00,I am confused about recursion.,Confused,Frustrated,Confused,0.931287,"[{""emotion"": ""Confused"", ""confidence"": 0.514581024646759}]",ERROR: google-generativeai is not installed. Install it to enable Gemini support.
+2026-07-06T06:43:54.333604+00:00,"I've watched several videos on binary trees and solved a few problems, but I still keep making mistakes. I'm frustrated because I feel like I'm not improving.
+",Frustrated,Frustrated,Frustrated,0.362371,"[{""emotion"": ""Frustrated"", ""confidence"": 0.3623706102371216}, {""emotion"": ""Confident"", ""confidence"": 0.3003966212272644}]",ERROR: google-generativeai is not installed. Install it to enable Gemini support.
+2026-07-06T06:43:54.527655+00:00,"I've watched several videos on binary trees and solved a few problems, but I still keep making mistakes. I'm frustrated because I feel like I'm not improving.
+",Frustrated,Frustrated,Frustrated,0.362371,"[{""emotion"": ""Frustrated"", ""confidence"": 0.3623706102371216}, {""emotion"": ""Confident"", ""confidence"": 0.3003966212272644}]",ERROR: google-generativeai is not installed. Install it to enable Gemini support.
+2026-07-08T18:34:00.674914+00:00,"python -m streamlit run app.py
+",Curious,Frustrated,Curious,0.269776,"[{""emotion"": ""Curious"", ""confidence"": 0.2697763442993164}, {""emotion"": ""Frustrated"", ""confidence"": 0.2339780479669571}]",ERROR: Gemini API key not found. Set GEMINI_API_KEY in a .env file.
+2026-07-08T18:34:00.951861+00:00,"python -m streamlit run app.py
+",Curious,Frustrated,Curious,0.269776,"[{""emotion"": ""Curious"", ""confidence"": 0.2697763442993164}, {""emotion"": ""Frustrated"", ""confidence"": 0.2339780479669571}]",ERROR: Gemini API key not found. Set GEMINI_API_KEY in a .env file.
+2026-07-09T07:20:14.377504+00:00,hi iam very happy,Confident,Frustrated,Confident,0.805585,"[{""emotion"": ""Confident"", ""confidence"": 0.5400418639183044}, {""emotion"": ""Frustrated"", ""confidence"": 0.18167242407798767}]","{
+  ""personalized_learning_guidance"": ""Since you are feeling so happy and confident today, this is the absolute best time to stretch your boundaries! When your confidence is high, your brain is more resilient to mistakes and better at making creative connections. Let's channel this amazing energy into tackling a topic you've found challenging in the past, or exploring a brand-new subject that excites you."",
+  ""encouraging_response"": ""Hello! I am absolutely thrilled to hear that you are feeling so happy today! Your positive energy and confidence are wonderful assets for learning. Let's keep this great momentum going!"",
+  ""study_tips"": ""Here are a few ways to leverage your positive mindset today: 1. Try 'Teaching' the Material: Explain a concept you've mastered to a friend, family member, or even out loud to yourself. 2. Attack the Hardest Task First: Use your peak confidence to dive into your most difficult study topic. 3. Gamify Your Learning: Challenge yourself to a timed quiz or flashcard sprint to keep the energy fun and active."",
+  ""next_learning_steps"": ""To make the most of this momentum, I suggest you: 1. Pick one specific, challenging topic you want to master today. 2. Set a timer for 25 minutes and dive in with focus. 3. Write down one new breakthrough or question you have after your study session, and share it with me!""
+}"
+2026-07-09T07:20:56.935029+00:00,"I understood the basics, but now I'm curious about advanced machine learning techniques.",Curious,Frustrated,Curious,0.965422,"[{""emotion"": ""Curious"", ""confidence"": 0.5575728416442871}]","{
+  ""personalized_learning_guidance"": ""Since you have a solid grasp of the basics, transitioning to advanced machine learning is all about understanding the 'why' behind complex models. You'll want to move from simple algorithms to Ensemble Methods (like Random Forests and Gradient Boosting), Deep Learning (Neural Networks), and advanced unsupervised learning. At this stage, focus on hyperparameter tuning, model evaluation metrics, and feature engineering, which are crucial for making advanced models perform optimally in real-world scenarios."",
+  ""encouraging_response"": ""It is absolutely thrilling to see your curiosity spark as you look toward advanced machine learning! Moving beyond the basics is a major milestone, and your eagerness to dive into deeper concepts is exactly the mindset that successful data scientists possess. You should be very proud of the foundation you've built—now let's take it to the next level!"",
+  ""study_tips"": [
+    ""Build from scratch: Try implementing a simplified version of an advanced algorithm (like a basic neural network or a decision tree) using only NumPy to truly understand its inner workings."",
+    ""Embrace Kaggle notebooks: Don't just compete; read the notebooks of top performers to see how they apply advanced feature engineering and model stacking techniques."",
+    ""Learn to debug models: When working with complex models, things will fail. Spend time learning how to diagnose overfitting, underfitting, and vanishing gradients.""
+  ],
+  ""next_learning_steps"": [
+    ""Step 1: Learn about Ensemble Methods, specifically Gradient Boosting machines like XGBoost, LightGBM, or CatBoost."",
+    ""Step 2: Take an introductory course or tutorial on Deep Learning and Neural Networks using frameworks like PyTorch or TensorFlow."",
+    ""Step 3: Complete a project where you apply advanced hyperparameter optimization techniques, such as Optuna or Grid Search, to improve a model's baseline score.""
+  ]
+}"
+2026-07-09T07:21:18.698508+00:00,"I've been studying Data Structures for several days. I understand arrays and linked lists, but recursion is still confusing...",Confused,Frustrated,Confused,0.896044,"[{""emotion"": ""Confused"", ""confidence"": 0.49809888005256653}]","```json
+{
+  ""personalized_learning_guidance"": ""Since you already have a solid grasp of arrays and linked lists, you are in a great position! Think of recursion as a way of solving a problem by breaking it down into smaller, identical sub-problems. Since you know linked lists, imagine traversing one recursively: to print a list, you print the current node, and then ask the same function to print the 'next' node. Recursion relies on two main parts: the 'Base Case' (which tells the function when to stop so it doesn't run forever) and the 'Recursive Case' (where the function calls itself with a slightly smaller version of the problem)."",
+  ""encouraging_response"": ""First of all, give yourself a huge round of applause for mastering arrays and linked lists! Those are major milestones in data structures. It is completely normal—and actually very common—to feel confused by recursion at first. It requires your brain to think in a slightly different loop, and it takes time to click. You are doing wonderfully, and facing this challenge head-on is exactly how we grow as programmers!"",
+  ""study_tips"": ""1. **Draw it out:** Use paper and colored pens to trace the 'Call Stack.' Draw a box for each time the function calls itself and watch how the values get passed up and down.\n2. **The 'Leap of Faith':** When writing recursive code, assume the helper call works for the smaller problem. Focus heavily on just two things: the base case (when to stop) and the transition (how to get closer to the base case).\n3. **Use a Debugger:** Run a simple recursive program in an IDE and step through it line-by-line to watch how the computer pauses one function call to start another."",
+  ""next_learning_steps"": ""1. **Start with the Classics:** Write a simple recursive function to calculate a factorial or generate Fibonacci numbers.\n2. **Connect to what you know:** Try writing a recursive function to print the elements of a linked list you've already built.\n3. **Visualize:** Watch a visual recursion simulator or video that animates how the stack grows and shrinks.""
+}
+```"
+2026-07-09T07:21:27.694653+00:00,"I am feeling confident about my upcoming exam on binary search trees, everything seems clear.",Confused,Frustrated,Confused,0.537745,"[{""emotion"": ""Confused"", ""confidence"": 0.31920433044433594}, {""emotion"": ""Confident"", ""confidence"": 0.2129523754119873}]","{
+  ""personalized_learning_guidance"": ""While it is fantastic that you are feeling confident, binary search trees (BSTs) can sometimes have subtle, tricky details that are easy to overlook. For instance, the exact steps for node deletion—especially when a node has two children—or maintaining the BST property during complex insertions can sometimes cause hidden confusion. Taking a moment to verify your understanding of these specific edge cases will ensure your confidence is fully backed by deep mastery."",
+  ""encouraging_response"": ""It's wonderful to hear that you're heading into your exam feeling positive and ready! Having that sense of clarity is a huge milestone. Let's channel that great energy into a quick, active review to make sure you're absolutely prepared for any curveballs the exam might throw at you."",
+  ""study_tips"": [
+    ""Use a visualizer: Go to a site like VisuAlgo to interactively insert and delete nodes, watching how the tree restructures itself in real-time."",
+    ""Trace traversals: Practice writing down the exact output of In-order, Pre-order, and Post-order traversals for a sample tree. Remember, an In-order traversal of a BST should always yield sorted values!"",
+    ""Teach the 'Two-Child' rule: Explain out loud how to delete a node with two children using its inorder successor or predecessor. If you can explain it clearly, you truly know it.""
+  ],
+  ""next_learning_steps"": [
+    ""Draw a BST with at least 7 nodes on paper, and manually trace the step-by-step deletion of the root node."",
+    ""Write out the pseudocode for a BST search algorithm to reinforce your understanding of its O(log n) average-case time complexity."",
+    ""Complete 3 to 5 quick practice questions focusing on identifying invalid binary search trees.""
+  ]
+}"
+2026-07-09T17:50:22.993845+00:00,"I've been studying Data Structures for several days. I understand arrays and linked lists, but recursion is still confusing. I've watched multiple tutorials and practiced coding problems, but I continue to make mistakes. It's becoming frustrating, although I'm determined to master recursion because I know it's essential for technical interviews.",Confused,Frustrated,Confused,0.511614,"[{""emotion"": ""Confused"", ""confidence"": 0.3045390844345093}, {""emotion"": ""Frustrated"", ""confidence"": 0.27803468704223633}]","ERROR: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash
+Please retry in 37.163679286s. [links {
+  description: ""Learn more about Gemini API quotas""
+  url: ""https://ai.google.dev/gemini-api/docs/rate-limits""
+}
+, violations {
+  quota_metric: ""generativelanguage.googleapis.com/generate_content_free_tier_requests""
+  quota_id: ""GenerateRequestsPerDayPerProjectPerModel-FreeTier""
+  quota_dimensions {
+    key: ""model""
+    value: ""gemini-3.5-flash""
+  }
+  quota_dimensions {
+    key: ""location""
+    value: ""global""
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 37
+}
+]"
+2026-07-09T18:06:11.939151+00:00,"python -m streamlit run app.py
+",Curious,Frustrated,Curious,0.269776,"[{""emotion"": ""Curious"", ""confidence"": 0.2697763442993164}, {""emotion"": ""Frustrated"", ""confidence"": 0.2339780479669571}]","ERROR: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash
+Please retry in 48.574888385s. [links {
+  description: ""Learn more about Gemini API quotas""
+  url: ""https://ai.google.dev/gemini-api/docs/rate-limits""
+}
+, violations {
+  quota_metric: ""generativelanguage.googleapis.com/generate_content_free_tier_requests""
+  quota_id: ""GenerateRequestsPerDayPerProjectPerModel-FreeTier""
+  quota_dimensions {
+    key: ""model""
+    value: ""gemini-3.5-flash""
+  }
+  quota_dimensions {
+    key: ""location""
+    value: ""global""
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 48
+}
+]"
+2026-07-09T18:10:17.972978+00:00,"I've been studying Data Structures for several days. I understand arrays and linked lists, but recursion is still confusing...",Confused,Frustrated,Confused,0.896044,"[{""emotion"": ""Confused"", ""confidence"": 0.49809888005256653}]","```json
+{
+  ""personalized_learning_guidance"": ""It's fantastic that you've grasped arrays and linked lists so well! That shows you have a strong foundation in understanding how data is organized. Recursion often feels like a complete shift in thinking compared to iterative approaches, and it's perfectly normal for it to be confusing at first. It requires you to think about a problem solving itself in smaller, identical steps, rather than a step-by-step loop. Don't worry, many developers have felt this exact same way!"",
+  ""encouraging_response"": ""You're doing great! Learning Data Structures is a marathon, not a sprint, and hitting a confusing concept like recursion is a very common experience. The fact that you're identifying what's confusing you is a huge step forward. Keep that curious mindset – your brain is just building new connections, and sometimes that feels a bit messy before it clicks. You've already shown you can master complex topics, and recursion will be no different!"",
+  ""study_tips"": ""To conquer recursion, try these strategies:\n1.  **Visualize the Call Stack:** Draw out how each function call is added and removed from the stack. This demystifies how recursive functions manage their state.\n2.  **Identify Base Case FIRST:** Always start by identifying the simplest possible input where the function doesn't need to recurse. This is crucial!\n3.  **Trust the Recursion:** Once you have the base case, assume the recursive call will work for the smaller problem. Focus on how the current step combines the result from the smaller problem.\n4.  **Work with Small Examples:** Start with very simple recursive functions like factorial, Fibonacci, or summing numbers in a range. Trace them line by line with pen and paper.\n5.  **Use Debuggers:** Step through recursive code with a debugger to see the values of variables and the call stack change with each invocation."",
+  ""next_learning_steps"": ""Here are some concrete steps to help you move forward:\n1.  **Revisit the Fundamentals:** Make sure you're crystal clear on the 'base case' and 'recursive step.' These are the pillars of recursion.\n2.  **Watch Explanatory Videos:** Sometimes a different explanation or visual analogy can make all the difference. Look for videos that break down recursion conceptually.\n3.  **Practice Simple Problems:** Try implementing recursive solutions for problems like calculating factorials, generating Fibonacci numbers, or performing a basic search in a tree (once you get to trees, recursion becomes incredibly intuitive).\n4.  **Explain It Out Loud:** Try explaining recursion to an imaginary friend or even a rubber duck. Articulating the concepts often reveals gaps in understanding.\n5.  **Take a Short Break:** If you're feeling stuck, sometimes stepping away for an hour or even a day and coming back with fresh eyes can help clarity emerge.""
+}
+```"
+2026-07-09T18:10:24.972786+00:00,"I am feeling confident about my upcoming exam on binary search trees, everything seems clear.",Confused,Frustrated,Confused,0.537745,"[{""emotion"": ""Confused"", ""confidence"": 0.31920433044433594}, {""emotion"": ""Confident"", ""confidence"": 0.2129523754119873}]","```json
+{
+  ""personalized_learning_guidance"": ""That's fantastic to hear you're feeling confident about binary search trees! It sounds like you've put in a lot of great work to get to this point. When everything feels clear, it's an excellent opportunity to solidify that understanding even further. Sometimes, exploring common tricky areas or edge cases can help transform 'clear' into 'rock-solid mastery,' ensuring no small details are overlooked. Let's build on this strong foundation together!"",
+  ""encouraging_response"": ""What a wonderful and proactive mindset to have as you approach your exam! Feeling confident is a huge advantage, and it shows you've been dedicated to learning the material. Keep that positive energy going – it makes a big difference in how you approach challenges and retain information. You've clearly invested time and effort, and that's something to be proud of!"",
+  ""study_tips"": [
+    ""**Visualize & Draw:** Even if you feel confident, quickly sketching out a few different BSTs (balanced, skewed, with deletions/insertions) can highlight any subtle misconceptions or reinforce the steps involved."",
+    ""**Explain it to a Friend (or a Rubber Duck):** Try explaining the core concepts, common operations (insertion, deletion, search), and their time complexities out loud. If you can teach it, you truly understand it."",
+    ""**Consider Edge Cases:** Think about what happens with an empty tree, a tree with one node, or operations that lead to a completely unbalanced tree. These often reveal deeper insights."",
+    ""**Walk Through Code Tracing:** Instead of just reading code, mentally (or physically) trace the execution of BST operations on a specific tree, paying attention to pointers and recursive calls. This is a great way to catch any logical gaps.""
+  ],
+  ""next_learning_steps"": [
+    ""**Attempt Diverse Practice Problems:** Seek out a few problems that test different aspects of BSTs – maybe one that focuses on traversals, another on validation, and one on deletion, especially the trickier cases (e.g., node with two children)."",
+    ""**Review Time and Space Complexity:** Ensure you can confidently state and explain the average and worst-case complexities for common BST operations and why they differ."",
+    ""**Explore Red-Black Trees or AVL Trees (Briefly):** You don't need to master them for your current exam, but understanding *why* they were invented (to solve BST balancing issues) can deepen your appreciation and understanding of basic BST limitations. This can clarify the 'why' behind certain BST properties."",
+    ""**Create a Quick 'Cheat Sheet':** Jot down the most important definitions, algorithms, and complexities. The act of creating it will help consolidate your knowledge, and it can be a quick review tool.""
+  ]
+}
+```"
+2026-07-09T18:11:16.493201+00:00,"I've been studying Data Structures for several days. I understand arrays and linked lists, but recursion is still confusing...",Confused,Frustrated,Confused,0.896044,"[{""emotion"": ""Confused"", ""confidence"": 0.49809888005256653}]","```json
+{
+  ""personalized_learning_guidance"": ""It's fantastic that you've built a solid understanding of arrays and linked lists! Those are fundamental data structures, and it shows you're laying a great foundation. It's completely normal to find recursion a bit challenging initially. It often requires a shift in thinking compared to the iterative approaches you might be more familiar with, and it's a concept many students find confusing at first. You're definitely not alone in feeling this way!"",
+  ""encouraging_response"": ""Keep up the amazing work! Identifying recursion as a confusing area is actually a sign of great self-awareness and active learning. It means you're really grappling with the material, and that's exactly how deep understanding is built. Don't get discouraged; this confusion is a natural part of mastering new and complex topics in computer science. You've got this, and you're making excellent progress!"",
+  ""study_tips"": [
+    ""**Visualize the Call Stack:** When a recursive function calls itself, imagine it creating new 'layers' or 'frames' on a stack. Draw this out! Trace the input parameters and the return value for each call. Tools like Python Tutor can animate this beautifully."",
+    ""**Focus on the Base Case:** Always identify the simplest version of the problem that doesn't require further recursion. This 'stopping condition' is crucial and often the easiest part to define."",
+    ""**The 'Leap of Faith' (Recursive Step):** For the recursive step, assume the function *already works* for a slightly smaller version of the problem. Your job is then to figure out how to use that 'already working' smaller solution to solve the current, larger problem."",
+    ""**Start Small & Simple:** Don't jump into complex tree traversals right away. Master simple examples like factorial, Fibonacci sequence, or summing numbers in a range recursively. These build foundational understanding without overwhelming you.""
+  ],
+  ""next_learning_steps"": [
+    ""**Watch Visual Explanations:** Search for animated or whiteboard explanations of recursion on platforms like YouTube. Seeing the concept visually, especially how the call stack works, can be incredibly helpful."",
+    ""**Implement Simple Problems:** Try writing and stepping through very basic recursive functions (like `factorial(n)`, `sum_of_range(start, end)`, or `power(base, exp)`) in your preferred programming language. Use your debugger to observe how the program flow and variables change with each recursive call."",
+    ""**Trace with Specific Examples:** Pick a simple recursive function (e.g., `factorial(3)`). Manually trace every step of the execution on paper, noting parameters, return values, and when each call returns. This helps solidify the 'unwinding' process."",
+    ""**Explore Different Resources:** If one tutorial or explanation isn't clicking, try another. Sometimes a different analogy or teaching style can make all the difference for a concept like recursion.""
+  ]
+}
+```"
+2026-07-09T18:11:26.985138+00:00,"I am feeling confident about my upcoming exam on binary search trees, everything seems clear.",Confused,Frustrated,Confused,0.537745,"[{""emotion"": ""Confused"", ""confidence"": 0.31920433044433594}, {""emotion"": ""Confident"", ""confidence"": 0.2129523754119873}]","```json
+{
+  ""personalized_learning_guidance"": ""It's fantastic that you're feeling confident about your upcoming exam on binary search trees! That's a wonderful mindset to have and shows you've been working hard. To truly cement that confidence and ensure every single concept is crystal clear, let's explore a few ways to deep-dive into the material. Sometimes, a strong grasp can feel complete until we try to explain it or apply it to a tricky, unfamiliar problem. This is a perfect opportunity to turn 'everything seems clear' into 'I can confidently solve *any* BST problem thrown my way!'"",
+  ""encouraging_response"": ""That's absolutely brilliant to hear! Feeling confident is a huge advantage and shows you've put in solid effort. Keep that positive energy going – it's a powerful tool for learning and performing well!"",
+  ""study_tips"": [
+    ""**Draw it Out, Step-by-Step:** For every core operation (insertion, deletion, search, traversal), grab a pen and paper. Start with an empty tree, then insert elements one by one, then practice deleting nodes (especially cases with one child and two children), and trace various traversals. Visualizing helps solidify the logic."",
+    ""**Explain the 'Why':** Don't just memorize algorithms; understand *why* each step is necessary. For example, why do we use an inorder successor (or predecessor) when deleting a node with two children? Understanding the 'why' helps you reconstruct the algorithm even if you forget a step."",
+    ""**Master Edge Cases:** Think critically about what happens with an empty tree, a tree with only one node, a tree that's completely skewed (all nodes on one side), or when the target node is the root. How do your algorithms handle these specific scenarios?"",
+    ""**Complexity Analysis:** Can you quickly explain the average and worst-case time and space complexity for core BST operations (search, insert, delete) and articulate the reasons behind them? Understanding this helps you appreciate the efficiency of BSTs."",
+    ""**Talk it Through:** Try to explain BSTs, their properties, and their operations to an imaginary friend, a pet, or even just out loud to yourself. If you find yourself stumbling or struggling to articulate a concept, that's a perfect spot to revisit and clarify your understanding.""
+  ],
+  ""next_learning_steps"": [
+    ""**Solve a Variety of Practice Problems:** Head over to platforms like LeetCode or HackerRank and tackle problems specifically tagged with 'Binary Search Tree.' Start with medium-difficulty problems and try to optimize your solutions. Pay attention to variations like finding the Kth smallest element, validating if a tree is a BST, or converting a sorted array to a BST."",
+    ""**Mock Teaching Session:** Pick a specific BST topic, such as 'Deletion in a BST (all cases)' or 'AVL Trees vs. Red-Black Trees,' and prepare to teach it as if you were explaining it to a classmate. The act of structuring an explanation often reveals subtle gaps in understanding."",
+    ""**Review Common Pitfalls:** Actively seek out and review common mistakes or tricky interview questions related to BSTs. Can you explain *why* these scenarios are tricky and how to correctly approach them?"",
+    ""**Create a Quick Reference Sheet:** Condense the key properties, algorithm steps, and complexity analyses for BSTs onto a single sheet of paper. Then, try to recreate it from memory. This active recall technique is highly effective for retention.""
+  ]
+}
+```"
+2026-07-09T18:12:06.834173+00:00,"I've been studying Data Structures for several days. I understand arrays and linked lists, but recursion is still confusing. I've watched multiple tutorials and practiced coding problems, but I continue to make mistakes. It's becoming frustrating, although I'm determined to master recursion because I know it's essential for technical interviews.",Confused,Frustrated,Confused,0.511614,"[{""emotion"": ""Confused"", ""confidence"": 0.3045390844345093}, {""emotion"": ""Frustrated"", ""confidence"": 0.27803468704223633}]","ERROR: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash
+Please retry in 53.667425911s. [links {
+  description: ""Learn more about Gemini API quotas""
+  url: ""https://ai.google.dev/gemini-api/docs/rate-limits""
+}
+, violations {
+  quota_metric: ""generativelanguage.googleapis.com/generate_content_free_tier_requests""
+  quota_id: ""GenerateRequestsPerDayPerProjectPerModel-FreeTier""
+  quota_dimensions {
+    key: ""model""
+    value: ""gemini-3.5-flash""
+  }
+  quota_dimensions {
+    key: ""location""
+    value: ""global""
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 53
+}
+]"
+2026-07-09T18:13:16.649059+00:00,"I've been studying Data Structures for several days. I understand arrays and linked lists, but recursion is still confusing. I've watched multiple tutorials and practiced coding problems, but I continue to make mistakes. It's becoming frustrating, although I'm determined to master recursion because I know it's essential for technical interviews.",Confused,Frustrated,Confused,0.511614,"[{""emotion"": ""Confused"", ""confidence"": 0.3045390844345093}, {""emotion"": ""Frustrated"", ""confidence"": 0.27803468704223633}]","ERROR: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.5-flash
+Please retry in 43.848342657s. [links {
+  description: ""Learn more about Gemini API quotas""
+  url: ""https://ai.google.dev/gemini-api/docs/rate-limits""
+}
+, violations {
+  quota_metric: ""generativelanguage.googleapis.com/generate_content_free_tier_requests""
+  quota_id: ""GenerateRequestsPerDayPerProjectPerModel-FreeTier""
+  quota_dimensions {
+    key: ""model""
+    value: ""gemini-3.5-flash""
+  }
+  quota_dimensions {
+    key: ""location""
+    value: ""global""
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 43
+}
+]"
+2026-07-09T18:16:54.906752+00:00,"I've been studying Data Structures for several days. I understand arrays and linked lists, but recursion is still confusing. I've watched multiple tutorials and practiced coding problems, but I continue to make mistakes. It's becoming frustrating, although I'm determined to master recursion because I know it's essential for technical interviews.",Confused,Frustrated,Confused,0.511614,"[{""emotion"": ""Confused"", ""confidence"": 0.3045390844345093}, {""emotion"": ""Frustrated"", ""confidence"": 0.27803468704223633}]","```json
+{
+  ""personalized_learning_guidance"": ""It's completely normal to feel confused about recursion, especially after grasping concrete concepts like arrays and linked lists. Recursion often requires a different way of thinking and a 'leap of faith' in assuming a smaller sub-problem will be solved. The fact that you understand arrays and linked lists shows you have a strong foundational grasp of data structures, which is fantastic! Recursion is indeed a common hurdle, but it's one that every successful developer eventually overcomes."",
+  ""encouraging_response"": ""It's wonderful that you're so determined to master recursion, even when it gets frustrating. That dedication is truly what makes a successful learner! Please know that struggling with recursion is a very common experience for almost everyone learning it for the first time. It's one of those topics that 'clicks' after a while, and your persistence will definitely pay off. You're putting in the effort, and that's the most important step towards mastery!"",
+  ""study_tips"": [
+    ""**Visualize Everything:** Get a pen and paper or use a whiteboard. Draw out the function calls as they happen, like a stack. Label the input for each call and trace how the return value bubbles back up. This helps demystify the 'magic'."",
+    ""**Focus on the Base Case:** When approaching a recursive problem, always identify the base case first. This is the condition that stops the recursion and prevents infinite loops. It's your anchor."",
+    ""**Assume the Recursive Call Works (Inductive Thinking):** When designing a recursive function, you only need to figure out how to solve the *current* step, assuming that the recursive call for a *smaller* subproblem will correctly handle its part. Don't try to trace the entire execution in your head immediately."",
+    ""**Use a Debugger:** Step through your recursive code line-by-line using a debugger. Watch the call stack, local variables, and parameters change with each step. This is incredibly insightful."",
+    ""**Start Simple:** Avoid jumping into complex problems like tree traversals or dynamic programming with recursion right away. Master the basics first.""
+  ],
+  ""next_learning_steps"": [
+    ""**Revisit the Three Pillars:** Make sure you deeply understand these components for any recursive function: 1) The Base Case (when to stop), 2) The Recursive Step (how to break the problem down), and 3) The Changing State (how arguments change with each call to move towards the base case)."",
+    ""**Master Classic Simple Examples:** Spend more time with very straightforward recursive problems until they feel intuitive. Good examples include: calculating factorials, generating Fibonacci numbers, summing elements in an array, or reversing a string recursively. Code them, trace them, and explain them."",
+    ""**Trace Simple Problems Manually:** Take a problem like `factorial(3)` or `sumRange(3)` and meticulously trace *every single function call* on paper, showing the return values and how the stack unwinds. This reinforces the flow."",
+    ""**Explore Visualizers:** Search for 'recursion visualizer' online. Many interactive tools can show the call stack and execution flow of common recursive algorithms, which can be very helpful."",
+    ""**Try Explaining It:** Teach recursion (or a specific recursive problem) to someone else (or even a rubber duck!). Articulating the concepts often helps solidify your own understanding and reveals gaps in your knowledge.""
+  ]
+}
+```"
+2026-07-09T18:42:54.073252+00:00,"I've been studying Data Structures for several days. I understand arrays and linked lists, but recursion is still confusing. I've watched multiple tutorials and practiced coding problems, but I continue to make mistakes. It's becoming frustrating, although I'm determined to master recursion because I know it's essential for technical interviews.",Confused,Frustrated,Confused,0.511614,"[{""emotion"": ""Confused"", ""confidence"": 0.3045390844345093}, {""emotion"": ""Frustrated"", ""confidence"": 0.27803468704223633}]","```json
+{
+  ""personalized_learning_guidance"": ""It's completely normal to feel confused by recursion, especially after getting a good grasp on concepts like arrays and linked lists. Recursion often 'clicks' after a bit more exposure and different angles of explanation. The fact that you understand fundamental data structures like arrays and linked lists shows you have a strong analytical foundation, which is excellent! Recursion just requires a slightly different way of thinking about problem-solving, breaking down a problem into smaller, self-similar versions. Your determination to master it is the most important ingredient right now."",
+  ""encouraging_response"": ""It sounds like you're putting in a tremendous amount of effort, and it's absolutely okay to feel frustrated when a concept isn't clicking immediately. Recursion is notoriously tricky for many students – you are definitely not alone in this struggle! The fact that you've watched multiple tutorials and practiced coding problems already demonstrates incredible persistence and a strong desire to learn. That determination is what will ultimately lead you to master it. Keep reminding yourself that every expert was once a beginner, and this challenging phase is a vital part of your learning journey. You *will* get this!"",
+  ""study_tips"": [
+    ""**Visualize the Call Stack:** Use pen and paper, a whiteboard, or an online visualizer (like Python Tutor) to draw out how functions are called and returned on the call stack. Trace simple examples like factorial or Fibonacci."",
+    ""**Master the Base Case First:** For any recursive problem, always identify the simplest possible input that can be solved directly without further recursion. This 'stopping condition' is crucial."",
+    ""**The 'Leap of Faith' (or Recursive Abstraction):** Once you have your base case, assume that your recursive function works correctly for smaller inputs. Focus on how to use that 'working' smaller solution to build the solution for the current input."",
+    ""**Break Down Problems:** Try to identify the 'self-similar' property of the problem. How can you solve a slightly smaller version of the same problem, and then use that to solve the larger one?"",
+    ""**Explain it to an Imaginary Friend:** Teaching the concept out loud, even to yourself or a rubber duck, can help solidify your understanding and reveal gaps in your knowledge.""
+  ],
+  ""next_learning_steps"": [
+    ""**Revisit Classic Examples (Slowly):** Instead of diving into complex coding problems, go back to the absolute basics: factorial, Fibonacci sequence, and maybe Tower of Hanoi. Focus on tracing them step-by-step, not just getting the code to run."",
+    ""**Interactive Debugging:** Use your IDE's debugger to step through recursive functions line by line. Observe the values of variables and the order of function calls on the call stack. This is incredibly powerful for seeing recursion in action."",
+    ""**Focus on Tree Traversal (if applicable):** Since you know linked lists, tree traversal (in-order, pre-order, post-order) is an excellent application of recursion. It builds directly on the idea of navigating connected nodes."",
+    ""**Find a Different Explainer:** Sometimes, a different instructor's or author's explanation just clicks. Search for 'recursion explained visually' or 'recursion for beginners' on platforms like YouTube (e.g., channels like freeCodeCamp, The Coding Train, or specific university lectures)."",
+    ""**Pair Programming/Discussion:** If possible, discuss your confusion with a classmate or a mentor. Explaining where you're stuck and hearing another perspective can be incredibly helpful.""
+  ]
+}
+```"
+2026-07-10T06:57:54.760225+00:00,"I understand loops, but recursion confuses me. I don't know when to use the base case, and I keep getting wrong answers while solving recursion problems.",Confused,Frustrated,Confused,0.722728,"[{""emotion"": ""Confused"", ""confidence"": 0.4113346040248871}, {""emotion"": ""Confident"", ""confidence"": 0.19894233345985413}]","ERROR: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
+Please retry in 5.336414887s. [links {
+  description: ""Learn more about Gemini API quotas""
+  url: ""https://ai.google.dev/gemini-api/docs/rate-limits""
+}
+, violations {
+  quota_metric: ""generativelanguage.googleapis.com/generate_content_free_tier_requests""
+  quota_id: ""GenerateRequestsPerDayPerProjectPerModel-FreeTier""
+  quota_dimensions {
+    key: ""model""
+    value: ""gemini-2.5-flash""
+  }
+  quota_dimensions {
+    key: ""location""
+    value: ""global""
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 5
+}
+]"
+2026-07-10T07:04:11.587691+00:00,"I understand most of the concepts, but I still feel nervous about tomorrow's final examination because I might forget important topics.",Confused,Frustrated,Confused,0.908694,"[{""emotion"": ""Confused"", ""confidence"": 0.5044604539871216}]","```json
+{
+  ""personalized_learning_guidance"": ""It sounds like you have a really strong grasp of most concepts, which is fantastic! That nervousness about potentially forgetting important topics is a very common feeling, especially when you're so close to the finish line. It often comes from feeling a bit overwhelmed by the volume of information. Instead of trying to re-learn everything, let's focus your energy on strategic, targeted review to solidify what you already know and build your confidence in recall. We can pinpoint those 'important topics' together and make sure they're locked in your memory."",
+  ""encouraging_response"": ""It's completely normal and understandable to feel a bit nervous before a big final examination, especially when you care about doing well! The fact that you understand most concepts already puts you in an incredibly strong position. This isn't about learning new things, but about consolidating and trusting what you've already learned. You've worked hard to get to this point, and you absolutely have the capability to ace this exam!"",
+  ""study_tips"": ""To actively combat that 'forgetting' feeling and reduce any confusion about what to focus on, try these effective recall methods for your final review:\n\n*   **Active Recall/Brain Dump:** Grab a blank piece of paper. Pick a major topic or chapter, and without looking at your notes, write down *everything* you can remember about it (key terms, formulas, definitions, examples). Afterward, compare it to your notes or textbook. This quickly shows you what you've mastered and what areas might need a quick, targeted review.\n*   **Explain it Out Loud:** Pretend you're teaching a concept to a friend or even a pet. If you can explain it clearly and simply, you understand it well. If you stumble, that's an area to review.\n*   **Focus on Summaries & Highlighted Notes:** Go through your own notes, chapter summaries, or any study guides you've created. These are often excellent consolidations of the most important information."",
+  ""next_learning_steps"": ""Here’s a clear, actionable plan for your final preparation to help you feel more secure and less confused:\n\n1.  **Prioritize Your 'Important Topics':** Quickly skim through your syllabus, past quizzes/assignments, or chapter headings. Which topics have been emphasized repeatedly? Which ones do you *feel* less confident explaining? List 3-5 of these to focus on first.\n2.  **Short, Focused Review Sprints:** Instead of one long, daunting study session, break your remaining time into 30-45 minute 'sprints.' During each sprint, tackle one or two of your prioritized topics using the active recall methods mentioned above.\n3.  **Quick Self-Quizzing:** Use practice questions from your textbook, online resources, or even just turning headings into questions. Answer them to test your recall.\n4.  **Visualize Success & Rest:** Take a moment to visualize yourself confidently answering questions in the exam. And most importantly, ensure you get a good night's sleep before the exam – rest is crucial for memory consolidation and sharp thinking!""
+}
+```"
+2026-07-10T07:08:53.241969+00:00,"I understand loops, but recursion confuses me. I don't know when to use the base case, and I keep getting wrong answers while solving recursion problems.",Confused,Frustrated,Confused,0.722728,"[{""emotion"": ""Confused"", ""confidence"": 0.4113346040248871}, {""emotion"": ""Confident"", ""confidence"": 0.19894233345985413}]","```json
+{
+  ""personalized_learning_guidance"": ""It's totally understandable to feel confused by recursion, especially when comparing it to loops! The base case is often the trickiest part because it's the 'escape hatch' from the recursion. Think of it as the simplest version of your problem that you can solve directly without needing any more recursive calls. For example, if you're summing numbers from 1 to N, the simplest version is summing numbers from 1 to 1 (which is just 1!). That's your base case. When you're getting wrong answers, it often means the base case isn't quite right, or the recursive step isn't moving you towards that base case correctly."",
+  ""encouraging_response"": ""You're not alone in finding recursion challenging – it's a concept that trips up many learners, even experienced programmers! The fact that you understand loops is a fantastic foundation to build upon. This 'confused' feeling is a sign that you're engaging deeply with a new way of thinking, and that's exactly how growth happens. Stick with it, and you'll absolutely have that 'aha!' moment!"",
+  ""study_tips"": [
+    ""**Visualize the Call Stack:** When you're tracing a recursive function, draw it out! Create boxes for each function call, showing its parameters and what it returns. This helps immensely in understanding how the program flows and how the base case is eventually reached."",
+    ""**Identify the Simplest Problem (Base Case First):** Before writing any recursive code, ask yourself: 'What's the absolute simplest input for this problem, and what should the direct answer be?' This answer will be your base case."",
+    ""**Trust the Recursion (The 'Leap of Faith'):** Once you've defined your base case and how to make a single recursive step (e.g., how to solve `problem(n)` if you assume `problem(n-1)` is already solved), trust that the recursive call will do its job correctly. Don't try to mentally solve the entire sequence of calls all at once."",
+    ""**Trace Simple Examples:** Pick a very small example (e.g., factorial of 3, Fibonacci of 4) and manually trace its execution step-by-step, noting down what happens at each call and return. This is crucial for understanding the flow.""
+  ],
+  ""next_learning_steps"": [
+    ""**Review the Basics of Base Cases:** Find a resource (video, article) that specifically focuses on *identifying* and *implementing* base cases for different types of recursive problems. Pay close attention to examples like factorial, Fibonacci, and array/list summing."",
+    ""**Work Through Classic Problems:** Practice with very well-known recursive problems such as: factorial, Fibonacci sequence, sum of natural numbers, reversing a string, or calculating powers. These are excellent for building foundational understanding."",
+    ""**Use a Debugger:** Step through your recursive code using a debugger. Observe how the call stack grows and shrinks, how parameters change with each call, and when the base case is hit. This can be incredibly insightful for demystifying what's happening 'under the hood.'"",
+    ""**Explain it to a Friend (or a Rubber Duck):** Try to explain recursion, and specifically how a base case works in a simple problem, to someone else. Articulating the concept helps solidify your own understanding.""
+  ]
+}
+```"
+2026-07-10T07:10:37.172582+00:00,"I have practiced binary trees for three days, but I still keep making mistakes. I feel frustrated because my solutions are failing repeatedly.",Frustrated,Frustrated,Frustrated,0.537647,"[{""emotion"": ""Frustrated"", ""confidence"": 0.537647008895874}]","```json
+{
+  ""personalized_learning_guidance"": ""It sounds like you've been putting in a lot of effort practicing binary trees for three days straight, and that dedication is truly commendable! It's completely normal to feel frustrated when solutions aren't working, especially with a topic like binary trees that requires a strong grasp of recursion and pointers. This feeling often signals that you're on the verge of a breakthrough – you're actively engaging with the material and pushing your understanding."",
+  ""encouraging_response"": ""Hey, take a deep breath! Frustration is a natural part of learning challenging concepts, and binary trees are definitely one of those. The fact that you've practiced for three days shows incredible persistence, and that's a much more important indicator of future success than immediate perfection. Many, many students find binary trees tricky at first, so you are absolutely not alone in this experience. Keep going, your hard work *will* pay off!"",
+  ""study_tips"": [
+    ""**Visualize Everything:** Binary trees are inherently visual. Grab a pen and paper, or use an online binary tree visualizer tool. Draw out the tree for every operation (insertion, deletion, traversal) and trace the steps manually. This can reveal where your mental model might be diverging from the correct logic."",
+    ""**Break It Down:** Instead of trying to solve complex problems right away, focus on mastering one small concept or operation at a time. For example, first nail pre-order traversal, then in-order, then post-order. Once you're comfortable with traversals, move on to insertion in a Binary Search Tree, and so on. Build your understanding incrementally."",
+    ""**Rubber Duck Debugging:** Try explaining your code line by line, or the concept of a binary tree, to an inanimate object (like a rubber duck) or even just yourself out loud. Often, articulating the logic helps you pinpoint the exact spot where your understanding is fuzzy or where your code logic might have a flaw."",
+    ""**Start Simple with Test Cases:** When your solutions are failing, don't jump to large, complex test cases. Start with the simplest possible tree (e.g., an empty tree, a tree with one node, a tree with two nodes) and meticulously trace your code's execution. Gradually add complexity.""
+  ],
+  ""next_learning_steps"": [
+    ""**Pinpoint Specific Mistakes:** Instead of feeling like 'everything' is wrong, try to identify the *exact* type of mistake you're making. Is it an issue with recursion base cases? Pointer manipulation? Understanding null checks? Off-by-one errors? Write down 2-3 specific examples of errors you've encountered."",
+    ""**Revisit Fundamentals (if needed):** Ensure your understanding of recursion and linked lists (especially how pointers/references work) is solid, as these are foundational for binary trees. Sometimes a shaky foundation can cause issues further up."",
+    ""**Watch Explanations/Walkthroughs:** Find video tutorials or articles that *visually* walk through binary tree operations step-by-step. Seeing how an expert builds the logic can provide new insights."",
+    ""**Practice *One* Specific Operation:** Pick one binary tree operation you find most challenging (e.g., `insert` into a BST, or `delete` from a BST, or one specific traversal) and focus solely on understanding and implementing *that* one thing correctly. Don't move on until you feel confident."",
+    ""**Take a Short Break:** Sometimes stepping away for an hour or even overnight can help reset your mind and allow you to approach the problem with fresh eyes. Your brain continues to process information even when you're not actively studying.""
+  ]
+}
+```"

@@ -1,0 +1,78 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+venv311/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore large BERT models
+models/bert_checkpoints/
+models/bert_emotion/
+
+# Ignore virtual environments
+venv/
+venv311/
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/*.log
+logs/*.txt
+!logs/.gitkeep
+
+# Models & datasets (large artifacts)
+##models/*.h5
+#models/*.keras
+#models/*.pt
+#models/*.pth
+#models/*.bin
+#models/*.safetensors
+#dataset/*.csv
+#dataset/*.json
+#dataset/*.parquet
+!models/.gitkeep
+!dataset/.gitkeep
+
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
