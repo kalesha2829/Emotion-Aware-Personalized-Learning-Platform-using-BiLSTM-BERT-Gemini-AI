@@ -1,3 +1,4 @@
+
 # AI Learning Assistant
 
 AI Learning Assistant is a Streamlit-based web application for student emotion detection and learning guidance. It combines BiLSTM and BERT emotion models with personalized support from Google Gemini AI.
@@ -138,3 +139,5 @@ utils/                      # Shared project utilities
 ## License
 
 Add your license here.
+
+
